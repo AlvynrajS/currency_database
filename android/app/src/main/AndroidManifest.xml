@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.m2p_task">
+
+   <uses-permission android:name="android.permission.INTERNET" />
+
    <application
         android:label="m2p_task"
         android:name="${applicationName}"
